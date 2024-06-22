@@ -1,0 +1,126 @@
+/* Global */
+
+/* Style the scrollbar itself (width, background) */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width of the scrollbar */
+}
+
+/* Style the track of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #1f1e22; /* Light grey track */
+}
+
+/* Style the thumb of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Dark grey thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+/* Change the thumb color on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker shade on hover */
+}
+
+/* End of Global */
+
+/* Nav Bar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1e22;
+  color:white;
+}
+
+.navbar {
+  background-color: #0d0d13;
+  overflow: hidden;
+  margin-bottom: 45px;
+  position: sticky;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #454453;
+  color: white;
+}
+/* End of Nav Bar */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 200px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #a5a5a5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-link {
+  display: inline-block;
+  padding: 10px 80px;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #505050;
+  border-style: solid;
+  border-color: #494949;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.feature-link:hover {
+  background-color: #3f3f3f;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+

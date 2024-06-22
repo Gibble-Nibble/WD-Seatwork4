@@ -1,0 +1,133 @@
+/*Global*/
+.header-container {
+    background-color: #100f13;
+    border-style: solid;
+    border-color: #3a3a3a;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+/* Style the scrollbar itself (width, background) */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust the width of the scrollbar */
+  }
+
+  /* Style the track of the scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #1f1e22; /* Light grey track */
+  }
+
+  /* Style the thumb of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Dark grey thumb */
+    border-radius: 5px; /* Rounded corners for the thumb */
+  }
+
+  /* Change the thumb color on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker shade on hover */
+  }
+/* End of Global */
+
+
+
+/* Nav Bar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1e22;
+    color:white;
+}
+
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    margin-bottom: 45px;
+    position: sticky;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #454453;
+    color: white;
+}
+/* End of Nav Bar */
+
+/* Additional styles for Feature Page 2 */
+.layout-b {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #333;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.layout-b h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.layout-b p {
+  margin-bottom: 25px;
+}
+
+.fullscreen-media img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.interactive-elements {
+  margin-top: 30px;
+}
+
+.interactive-item {
+  margin: 30px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+footer {
+  background-color: #0d0d13;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white; /* Gold color for contrast */
+  text-decoration: none; /* Removes underline */
+  font-weight: 500; /* Slightly bolder */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for color and transform */
+}
+
+footer a:hover {
+  color: #FFFFFF; /* Changes color on hover */
+  text-decoration: underline; /* Adds underline on hover */
+  transform: scale(1.05); /* Slightly increases size */
+}
