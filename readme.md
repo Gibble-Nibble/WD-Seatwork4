@@ -9,11 +9,11 @@
     <img src="https://i.pinimg.com/564x/aa/e9/eb/aae9ebf1c2d688ed0219d0ee636dd933.jpg">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 3</h3>
+  <h3 align="center">Seatwork 4</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  In this project, I've compiled 5 Static and 5 Animated headers & footer designs in a website.
+  In this project, I designed 2 layouts that can be used in a website.
 </div>
 
 <br />
