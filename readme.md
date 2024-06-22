@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="[https://github.com/Gibble-Nibble](https://gibble-nibble.github.io/WD-Seatwork4/)">
+  <a href="https://github.com/Gibble-Nibble">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="https://i.pinimg.com/564x/aa/e9/eb/aae9ebf1c2d688ed0219d0ee636dd933.jpg">
   </a>
@@ -13,7 +13,8 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  In this project, I designed 2 layouts that can be used in a website.
+  <p>In this project, I designed 2 layouts that can be used in a website.</p>
+  <a href="https://gibble-nibble.github.io/WD-Seatwork4/">Click here to view the website.</a>
 </div>
 
 <br />
