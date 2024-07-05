@@ -130,4 +130,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| W3Schools | Navbar, Gradient, Animations | https://www.w3schools.com/css/default.asp |
+| . | . | . |
