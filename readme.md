@@ -65,7 +65,7 @@ Created a Header and Footer Display Website with distinct designs using pure HTM
 
 # Guiding Question:
 What is the project?
-> A website that showcases 5 static and 5 animated designs for headers and footers.
+> A website that showcases 2 layouts.
 
 Whats the purpose?
 > The purpose of this website is to showcase our skills and creativity.
@@ -107,21 +107,6 @@ WD-ProjectName
 |   └─ css
 |      └─ style.css
 └─ pages
-|  └─ header-gallery
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     └─ index.html
-|  └─ footer-gallery
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |     |  487c7f07ffc30df361f2fa4c4732dbad-removebg.png
-|     |     |  icons8-facebook-50.png
-|     |     |  icons8-instagram-50.png
-|     |     └─ icons8-twitter-50.png
-|     └─ index.html
 └─ index.html
 └─ readme.md
 ```
