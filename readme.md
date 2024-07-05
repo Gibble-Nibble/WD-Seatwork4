@@ -9,12 +9,11 @@
     <img src="https://i.pinimg.com/564x/aa/e9/eb/aae9ebf1c2d688ed0219d0ee636dd933.jpg">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 4</h3>
+  <h3 align="center">Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  <p>In this project, I designed 2 layouts that can be used in a website.</p>
-  <a href="https://gibble-nibble.github.io/WD-Seatwork4/">Click here to view the website.</a>
+  In this project, I've compiled 2 layouts.
 </div>
 
 <br />
@@ -65,7 +64,7 @@ Created a Header and Footer Display Website with distinct designs using pure HTM
 
 # Guiding Question:
 What is the project?
-> A website that showcases 2 layouts.
+> A website that showcases 2 layouts
 
 Whats the purpose?
 > The purpose of this website is to showcase our skills and creativity.
@@ -107,6 +106,21 @@ WD-ProjectName
 |   └─ css
 |      └─ style.css
 └─ pages
+|  └─ header-gallery
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     └─ index.html
+|  └─ footer-gallery
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |     |  487c7f07ffc30df361f2fa4c4732dbad-removebg.png
+|     |     |  icons8-facebook-50.png
+|     |     |  icons8-instagram-50.png
+|     |     └─ icons8-twitter-50.png
+|     └─ index.html
 └─ index.html
 └─ readme.md
 ```
