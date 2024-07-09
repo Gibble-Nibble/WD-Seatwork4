@@ -58,79 +58,66 @@ body {
 
 
 
-/* Additional styles for Feature Page 1 */
-.title {
+/* Resetting default styles */
+header {
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
-.layout-a {
-  max-width: 1500px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 20px;
+.feature {
+  display: flex;
+  margin-bottom: 30px;
+  background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  color:black;
 }
 
-.layout-a h2 {
-  font-size: 2rem;
+.feature-image {
+  flex: 1;
+  min-width: 200px;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.feature-content {
+  flex: 2;
+  padding: 20px;
+}
+
+.feature-content h2 {
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
-.layout-a p {
-  margin-bottom: 50px;
+.feature-content p {
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
-.content {
-  margin-top: 20px;
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-.hero img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.grid-section {
-  margin: 20px 50px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.grid-item {
-  margin: 25px;
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+.cta-button:hover {
+  background-color: #0056b3;
 }
 
 footer {
-  background-color: #0d0d13;
-  color: white;
   text-align: center;
-  padding: 50px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer a {
-  color: white; /* Gold color for contrast */
-  text-decoration: none; /* Removes underline */
-  font-weight: 500; /* Slightly bolder */
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for color and transform */
-}
-
-footer a:hover {
-  color: #FFFFFF; /* Changes color on hover */
-  text-decoration: underline; /* Adds underline on hover */
-  transform: scale(1.05); /* Slightly increases size */
+  margin-top: 30px;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
 }

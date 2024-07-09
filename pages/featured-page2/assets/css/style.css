@@ -63,71 +63,144 @@ body {
 }
 /* End of Nav Bar */
 
-/* Additional styles for Feature Page 2 */
-.layout-b {
-  max-width: 1500px;
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9e9e9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
-  background-color: #fff;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #f8f9fa;
+  color: #333;
   text-align: center;
+  padding: 80px 0;
+  background-image: url('images/paint-splash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+main {
+  padding: 40px 0;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-details {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.feature-details h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
   color: #333;
 }
 
-.title {
-  text-align: center;
-  margin-bottom: 80px;
+.feature-details p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
 }
 
-.layout-b h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+.feature-details .cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-.layout-b p {
-  margin-bottom: 25px;
+.feature-details .cta-button:hover {
+  background-color: #0056b3;
 }
 
-.fullscreen-media img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.interactive-elements {
-  margin-top: 30px;
-}
-
-.interactive-item {
-  margin: 30px;
-  background-color: #f0f0f0;
+.feature-image {
+  flex: 1;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+.feature-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-  background-color: #0d0d13;
-  color: white;
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  padding: 50px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 40px 0;
 }
 
-footer a {
-  color: white; /* Gold color for contrast */
-  text-decoration: none; /* Removes underline */
-  font-weight: 500; /* Slightly bolder */
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for color and transform */
+footer p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
-footer a:hover {
-  color: #FFFFFF; /* Changes color on hover */
-  text-decoration: underline; /* Adds underline on hover */
-  transform: scale(1.05); /* Slightly increases size */
+footer .cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+footer .cta-button:hover {
+  background-color: #218838;
 }
