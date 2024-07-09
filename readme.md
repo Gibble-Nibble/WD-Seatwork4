@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  In this project, I've compiled 5 Static and 5 Animated headers & footer designs in a website.
+  In this project, I've compiled 2 layouts.
 </div>
 
 <br />
@@ -64,7 +64,7 @@ Created a Header and Footer Display Website with distinct designs using pure HTM
 
 # Guiding Question:
 What is the project?
-> A website that showcases 5 static and 5 animated designs for headers and footers.
+> A website that showcases 2 layouts
 
 Whats the purpose?
 > The purpose of this website is to showcase our skills and creativity.
@@ -130,4 +130,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| W3Schools | Navbar, Gradient, Animations | https://www.w3schools.com/css/default.asp |
+| . | . | . |
